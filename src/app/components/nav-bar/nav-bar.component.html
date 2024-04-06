@@ -1,19 +1,19 @@
 <mat-sidenav-container class="sidenav-container" style="height: 100vh;">
-  <mat-sidenav #sidenav mode="side" opened="false" class="sidenav">
+  <mat-sidenav #sidenav mode="push" opened="true" class="sidenav">
     <mat-nav-list>
-      <a mat-list-item routerLink="/">Home</a>
+      <a mat-list-item class="item" routerLink="/">Home</a>
       <a mat-list-item routerLink="/service-page">Services</a>
       <a mat-list-item routerLink="/imprint-page">Imprint</a>
     </mat-nav-list>
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <mat-toolbar class="toolbar">
-      <button mat-icon-button (click)="sidenav.toggle()">
-        <mat-icon>menu</mat-icon>
+    <mat-toolbar class="top-navbar">
+      <button mat-icon-button matTooltip="Menü" (click)="sidenav.toggle()">
+        <mat-icon>menu-large</mat-icon>
       </button>
       <img mat-card-image ngSrc="./assets/icons/makenieer_logo_small.svg"
-           class="icon-navbar" height="55" width="55" alt="makenieer-icon">
+           class="top-navbar-icon" height="55" width="55" alt="makenieer-icon">
     </mat-toolbar>
 
     <router-outlet></router-outlet>

@@ -12,6 +12,7 @@ import {MatCard, MatCardHeader, MatCardImage} from "@angular/material/card";
 import {NgOptimizedImage} from "@angular/common";
 import {MatChip} from "@angular/material/chips";
 import {MatTextColumn} from "@angular/material/table";
+import {MatTooltip} from "@angular/material/tooltip";
 
 @Component({
   selector: 'app-nav-bar',
@@ -32,6 +33,7 @@ import {MatTextColumn} from "@angular/material/table";
     MatChip,
     MatCardHeader,
     MatTextColumn,
+    MatTooltip,
   ],
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.scss']
