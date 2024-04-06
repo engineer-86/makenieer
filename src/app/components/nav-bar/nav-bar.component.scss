@@ -4,12 +4,20 @@
   background: transparent;
   margin-left: auto;
   border-radius: 4px;
+
 }
+
+.toolbar{
+  color: white;
+  background-color: rgb(33, 63, 132, 0.9);;
+}
+
+
 
 .mat-sidenav-content {
   background: url('/assets/background_black_white.jpg') no-repeat center center fixed;
   background-size: cover;
-  height: 100vh; // Stellt sicher, dass der Hintergrund die volle Höhe einnimmt
+  height: 100vh;
 }
 
 
