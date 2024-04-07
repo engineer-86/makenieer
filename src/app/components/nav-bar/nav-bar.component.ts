@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { map, Observable } from 'rxjs';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import {Component} from '@angular/core';
+import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
+import {map, Observable} from 'rxjs';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatListItem, MatNavList} from "@angular/material/list";
 import {RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
 import {MatSelect} from "@angular/material/select";
@@ -45,7 +45,9 @@ export class NavBarComponent {
       map(result => result.matches)
     );
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+  constructor(private breakpointObserver: BreakpointObserver) {
+
+  }
 
   protected readonly MatCardImage = MatCardImage;
 }

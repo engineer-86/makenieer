@@ -1,6 +1,8 @@
+<div *ngIf="showContent" @fadeIn>
+
 <mat-card class="content">
   <mat-card-content>
-    <h2>Willkommen bei MAKENIEER IT-Dienstleistungen</h2>
+    <mat-card-title class="title">Willkommen bei MAKENIEER IT-Dienstleistungen</mat-card-title>
     <p>
       Bei Makenieer stehen Sie im Mittelpunkt: Wir bieten maßgeschneiderte IT-Lösungen für Privatpersonen und
       Unternehmen, um die komplexesten Herausforderungen zu meistern. Von der ersten Beratung bis zur finalen Umsetzung
@@ -12,19 +14,19 @@
   <mat-card-actions class="actions">
     <a mat-stroked-button color="primary" href="mailto:konrad.muench1986@gmail.com">
       <mat-icon>email</mat-icon>
-      Kontaktieren Sie mich
+      Kontakt
     </a>
 
     <button mat-stroked-button color="primary" routerLink="/service-page">
       <mat-icon>build_circle</mat-icon>
-      Meine Services
+      Services
     </button>
   </mat-card-actions>
 
   <mat-divider></mat-divider>
 
   <mat-card-content>
-    <h3>Warum MAKENIEER?</h3>
+    <mat-card-title class="title">Warum makenieer?</mat-card-title>
     <p>
       Entdecken Sie den Unterschied, den individuell angepasste IT-Lösungen für Ihr Unternehmen oder Ihr persönliches
       Projekt machen können. Ich begleite Sie auf jedem Schritt des Weges – mit Kompetenz, Leidenschaft und einem
@@ -34,3 +36,4 @@
 
 
 </mat-card>
+</div>
