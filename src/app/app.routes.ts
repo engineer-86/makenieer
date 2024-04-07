@@ -4,7 +4,7 @@ import { ServicesPageComponent } from './components/services-page/services-page.
 import { ImprintPageComponent } from './components/imprint-page/imprint-page.component';
 
 export const routes: Routes = [
-  { path: '', component: HomePageComponent },
+  { path: 'home-page', component: HomePageComponent },
   { path: 'service-page', component: ServicesPageComponent },
   { path: 'imprint-page', component: ImprintPageComponent }
 ];

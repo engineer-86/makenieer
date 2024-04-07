@@ -1,6 +1,15 @@
 import {Component} from '@angular/core';
-import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from "@angular/material/card";
-import { CommonModule } from '@angular/common';
+import {MatCard, MatCardContent, MatCardHeader, MatCardTitle, MatCardTitleGroup} from "@angular/material/card";
+import {CommonModule} from '@angular/common';
+import {MatSlider} from "@angular/material/slider";
+import {MatIconButton} from "@angular/material/button";
+import {MatIcon} from "@angular/material/icon";
+import {
+  CarouselCaptionComponent,
+  CarouselComponent,
+  CarouselInnerComponent,
+  CarouselItemComponent
+} from "@coreui/angular";
 
 @Component({
   selector: 'app-services-page',
@@ -10,16 +19,15 @@ import { CommonModule } from '@angular/common';
     MatCardHeader,
     MatCardContent,
     MatCardTitle,
-    CommonModule
+    CommonModule,
+    MatCardTitleGroup,
+    MatSlider,
+    MatIconButton,
+    MatIcon,
   ],
   templateUrl: './services-page.component.html',
   styleUrl: './services-page.component.scss'
 })
 export class ServicesPageComponent {
-  services = [
-    { title: 'Serverlösungen', description: 'Zuverlässige und skalierbare Serverlösungen für Ihr Unternehmen.' },
-    { title: 'Netzwerkeinrichtung', description: 'Planung und Einrichtung Ihrer Netzwerkumgebungen.' },
-    { title: 'Hardware-Beratung', description: 'Schnelle und effiziente Beratung für passgenaue Hardware.' },
-    { title: 'Smart Home-Lösungen', description: 'Konzeption und Konfiguration intelligenter Smart-Home-Systeme.' }
-  ];
+
 }

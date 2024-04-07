@@ -6,7 +6,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatListItem, MatNavList} from "@angular/material/list";
-import {RouterLink, RouterOutlet} from "@angular/router";
+import {RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
 import {MatSelect} from "@angular/material/select";
 import {MatCard, MatCardHeader, MatCardImage} from "@angular/material/card";
 import {NgOptimizedImage} from "@angular/common";
@@ -34,6 +34,7 @@ import {MatTooltip} from "@angular/material/tooltip";
     MatCardHeader,
     MatTextColumn,
     MatTooltip,
+    RouterLinkActive,
   ],
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.scss']

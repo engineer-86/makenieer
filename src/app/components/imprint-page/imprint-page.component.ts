@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import {MatDivider} from "@angular/material/divider";
 import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from "@angular/material/card";
+import {MatList, MatListItem} from "@angular/material/list";
+import {MatIcon} from "@angular/material/icon";
 
 @Component({
   selector: 'app-imprint-page',
@@ -10,7 +12,10 @@ import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from "@angular/mat
     MatCardTitle,
     MatCardHeader,
     MatCard,
-    MatCardContent
+    MatCardContent,
+    MatListItem,
+    MatList,
+    MatIcon
   ],
   templateUrl: './imprint-page.component.html',
   styleUrl: './imprint-page.component.scss'
