@@ -4,12 +4,8 @@ import {CommonModule} from '@angular/common';
 import {MatSlider} from "@angular/material/slider";
 import {MatIconButton} from "@angular/material/button";
 import {MatIcon} from "@angular/material/icon";
-import {
-  CarouselCaptionComponent,
-  CarouselComponent,
-  CarouselInnerComponent,
-  CarouselItemComponent
-} from "@coreui/angular";
+import {MatDivider} from "@angular/material/divider";
+
 
 @Component({
   selector: 'app-services-page',
@@ -24,6 +20,7 @@ import {
     MatSlider,
     MatIconButton,
     MatIcon,
+    MatDivider,
   ],
   templateUrl: './services-page.component.html',
   styleUrl: './services-page.component.scss'
