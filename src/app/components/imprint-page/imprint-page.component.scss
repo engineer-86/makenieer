@@ -1,16 +1,15 @@
-/* navbar.component.scss */
-
 .imprint-intro {
-  font-family: 'Monserat', serif;
+  font-family: "Monserat", serif;
   text-align: center;
   margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content; /* Ensures the div only takes up the width of its content */
   border-radius: 20px;
 }
 
 .title {
-  font-family: 'Monserat', serif;
+  font-family: "Monserat", serif;
   background-color: rgba(102, 102, 102, 0.9);
   color: white;
   margin-bottom: 10px;
@@ -23,15 +22,34 @@
   background-color: rgba(102, 102, 102, 0.9);
   color: white;
   border-radius: 20px;
+  width: fit-content; /* Ensures the card only takes up the width of its content */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sub-title {
-  font-family: 'Monserat', serif;
+  font-family: "Monserat", serif;
   color: black;
 }
 
-.service-card {
-  margin-left: 5px;
+.content {
+  font-family: "Monserat", serif;
   color: white;
+}
+
+.imprint-content {
+  margin-left: 5px;
+  color: black;
   border-radius: 20px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Monserat", serif;
+  font-size: large;
+}
+
+a:hover {
+  text-decoration: underline;
 }
