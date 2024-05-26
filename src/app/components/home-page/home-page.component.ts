@@ -1,13 +1,25 @@
 import { Component } from '@angular/core';
-import {MatIcon} from "@angular/material/icon";
-import {MatCard, MatCardActions, MatCardContent, MatCardFooter, MatCardTitle} from "@angular/material/card";
-import {MatAnchor, MatButton, MatIconButton} from "@angular/material/button";
-import {RouterLink} from "@angular/router";
-import {MatTextColumn} from "@angular/material/table";
-import {MatDialogContent} from "@angular/material/dialog";
-import {MatDivider} from "@angular/material/divider";
-import {animate, state, style, transition, trigger} from "@angular/animations";
-import {NgIf} from "@angular/common";
+import { MatIcon } from '@angular/material/icon';
+import {
+  MatCard,
+  MatCardActions,
+  MatCardContent,
+  MatCardFooter,
+  MatCardTitle,
+} from '@angular/material/card';
+import { MatAnchor, MatButton, MatIconButton } from '@angular/material/button';
+import { RouterLink } from '@angular/router';
+import { MatTextColumn } from '@angular/material/table';
+import { MatDialogContent } from '@angular/material/dialog';
+import { MatDivider } from '@angular/material/divider';
+import {
+  animate,
+  state,
+  style,
+  transition,
+  trigger,
+} from '@angular/animations';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-home-page',
@@ -26,18 +38,11 @@ import {NgIf} from "@angular/common";
     MatDialogContent,
     MatDivider,
     MatCardTitle,
-    NgIf
+    NgIf,
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss',
-  animations: [
-    trigger('fadeIn', [
-      state('void', style({ opacity: 0 })),
-      transition(':enter', [
-        animate('2s', style({ opacity: 1 })),
-      ]),
-    ]),
-  ]
+  animations: [],
 })
 export class HomePageComponent {
   showContent = true;

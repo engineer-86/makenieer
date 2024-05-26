@@ -1,5 +1,3 @@
-/* navbar.component.scss */
-
 .imprint-intro {
   text-align: center;
   margin-bottom: 40px;
@@ -9,7 +7,6 @@
 }
 
 .services-list {
-
   display: grid;
   text-align: center;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -19,10 +16,9 @@
   margin: 0 auto;
 }
 
-
 .title {
   background-color: rgba(102, 102, 102, 0.9);
-  font-family: 'Monserat', serif;
+  font-family: "Monserat", serif;
   color: white;
   margin-bottom: 10px;
   display: inline-block;
@@ -31,7 +27,7 @@
 }
 
 .header {
-  font-family: 'Monserat', serif;
+  font-family: "Monserat", serif;
   background-color: rgba(102, 102, 102, 0.9);
   color: white;
   border-radius: 20px;
@@ -39,7 +35,7 @@
 
 .service-card {
   margin-left: 5px;
-  font-family: 'Monserat', serif;
+  font-family: "Monserat", serif;
   background-color: rgba(102, 102, 102, 0.9);
   border-radius: 20px;
   display: flex;
@@ -47,30 +43,29 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 15px;
 }
 
 .service-card-img {
   display: block;
   margin: 0 auto;
-  width: 256px;
-  height: 256px;
-  filter: grayscale(80%);
+  width: 100px;
+  height: 100px;
+  filter: grayscale(20%);
 }
 
 .title {
-  font-family: 'Monserat', serif;
-  color: black;
+  font-family: "Monserat", serif;
+  color: white;
   background-color: transparent;
 }
 
-.title-main{
-    font-family: 'Monserat', serif;
-    background-color: rgba(102, 102, 102, 0.9);
-    color: white;
-    margin-bottom: 10px;
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 20px;
-  }
-
-
+.title-main {
+  font-family: "Monserat", serif;
+  background-color: rgba(102, 102, 102, 0.9);
+  color: white;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
