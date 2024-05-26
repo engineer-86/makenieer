@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 import { MatDivider } from '@angular/material/divider';
 import {
-  MatCardModule,
   MatCard,
   MatCardContent,
   MatCardHeader,
   MatCardTitle,
-  MatCardSubtitle,
 } from '@angular/material/card';
 import { MatList, MatListItem } from '@angular/material/list';
 import { MatIcon } from '@angular/material/icon';
